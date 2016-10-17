@@ -3,17 +3,30 @@ javascript-best-practice
 
 This repo has been forked from [dwyl](https://github.com/dwyl/javascript-best-practice), and has been modified to reflect my personal opinions and learning experience. I hope to upate this repo with rules and methods that I think contribute to 'better' code.
 
+##### Sources:
+[dwyl's javascript-best-practice](https://github.com/dwyl/javascript-best-practice)
+[dwyl's best-practices](https://github.com/dwyl/best-practices)
+
 Keywords:
 
-*#consistency* *#maintainability* *#performant*
+*#consistency* *#maintainability* *#performant* *iterability* *robustness*
 
 ## Summary of what you're about to read:
 - Indentation = 4 spaces.
 - Max line length = 80 chars. Continue a line by indenting _two levels_.
 - Use double quotes. Always. (Why?)
-- Always TDD. Test what the _client will see/should expect_.
-- Keep everything modular.
+- Keep it modular. Split out functions into files, never let your app get too big; break up your app into smaller chunks. Design your code to work in isolation.
+- Reducing the amount of code in your product should be your goal - [Jack Diederich](https://github.com/dwyl/best-practices)
 
+- Testing: Always TDD. Test what the _client will see/should expect_.
+- Architecture: it should resemble your domain, not the framework you are using.
+- Dependencies: keep them _lean_.
+- Simple is best.
+
+## Questions to ask:
+- Are you rewriting or refactoring?
+- Could this be premature optimisation?
+- Is your code really working? Have you tested from all angles?
 
 ## Main Rules
 
@@ -39,7 +52,6 @@ Keywords:
 
 [Maintainable JavaScript (Nicholas C. Zakas 2010)](http://www.amazon.com/Maintainable-JavaScript-Nicholas-C-Zakas/dp/1449327680/) - contains **practical**
 JavaScript best practices.
-
 
 ### Indentation
 
@@ -132,6 +144,9 @@ Time to Optimize your JavaScript? (Or looking for some simple wins?)
 
 - **High Performance** JavaScript (Nicholas C. Zakas 2010):
 http://www.amazon.com/dp/059680279X/
+
+[Maintainable JavaScript (Nicholas C. Zakas 2010)](http://www.amazon.com/Maintainable-JavaScript-Nicholas-C-Zakas/dp/1449327680/) - contains **practical**
+JavaScript best practices.
 
 ## CoffeeScript
 
