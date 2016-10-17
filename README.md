@@ -48,6 +48,11 @@ Keywords:
 13. (Don’t be afraid to) *Critique* someone else’s code if they ignore any coding best practices (by pointing to the *specific* “guideline” that is not being followed)
 14. Compile your code with [**Source Maps**](https://www.html5rocks.com/en/tutorials/developertools/sourcemaps/) (to aid debugging)
 
+## Read:
+
+[Maintainable JavaScript (Nicholas C. Zakas 2010)](http://www.amazon.com/Maintainable-JavaScript-Nicholas-C-Zakas/dp/1449327680/) - contains **practical**
+JavaScript best practices.
+
 ### Indentation
 
 Indentation should be **four spaces** *not tabs*.
